@@ -36,13 +36,6 @@ function contactUS() {
           />
           <SocialStyling
             classNameDes="social-styling"
-            socialdescription="likithayalavarthi95"
-            socailSitename="Twitter : "
-            socialComponent={AiFillTwitterCircle}
-            sociallink="https://twitter.com/likithayalavarthi"
-          />
-          <SocialStyling
-            classNameDes="social-styling"
             socialdescription="likithayalavarthi"
             socailSitename="Facebook : "
             socialComponent={AiFillFacebook}
