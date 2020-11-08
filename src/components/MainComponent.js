@@ -3,6 +3,7 @@ import Menubar from "./Menubar";
 import ContentBody from "./ContentBody";
 import Home from "./Home";
 import MyCV from "./MyCV";
+import { Flex } from "rebass";
 
 function MainComponent(props) {
   const { path } = props;
@@ -13,15 +14,10 @@ function MainComponent(props) {
           <MyCV />
         </div>
       ) : (
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-          }}
-        >
+        <Flex>
           <Menubar />
-          {path == "/" ? <Home /> : <ContentBody {...props} />}
-        </div>
+          <ContentBody {...props} />
+        </Flex>
       )}
     </>
   );

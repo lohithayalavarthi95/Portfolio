@@ -1,12 +1,18 @@
-import React from 'react'
+import React from "react";
 
-function ContentBody (props) {
-  const ComponentDetails = props.Component
+function ContentBody(props) {
+  const ComponentDetails = props.Component;
   return (
-    <div style={{ backgroundColor: 'white', width: '70%' }}>
+    <div
+      style={{
+        backgroundColor: "white",
+        width: "75%",
+        marginLeft: "25%",
+      }}
+    >
       <ComponentDetails />
     </div>
-  )
+  );
 }
 
-export default ContentBody
+export default ContentBody;

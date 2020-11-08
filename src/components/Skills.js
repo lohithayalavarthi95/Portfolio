@@ -20,7 +20,7 @@ function Skills () {
       JQuery
       <Progress style={{ marginBottom: '20px' }} percent={75} size='small' />
       Java
-      <Progress style={{ marginBottom: '20px' }} percent={70} size='small' />
+      <Progress style={{ marginBottom: '20px' }} percent={100} size='small' />
       AJAX
       <Progress style={{ marginBottom: '20px' }} percent={65} size='small' />
       C++

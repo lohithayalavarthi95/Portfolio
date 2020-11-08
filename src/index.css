@@ -12,12 +12,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./images/Canada.jpg');
-  background-color: #201414;
-  background-repeat: no-repeat, repeat;
-  background-size: cover;
-  background-position: top center;
+
+  height : 100vh
+
+
 }
+
+
 
 body #page2 {
     font-family: Roboto,Helvetica,sans-serif;

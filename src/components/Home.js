@@ -1,17 +1,34 @@
-import React, { useEffect } from "react";
-import { Heading, Button } from "rebass";
-import { Router, Link } from "@reach/router";
+import React from "react";
+import { Heading, Button, Flex } from "rebass";
+import { Link } from "@reach/router";
 import HeadingBar from "../views/HeadingBar";
 import "./main.css";
 function Home() {
   return (
-    <div style={{ height: "730px" }}>
-      <div
-        style={{
+    <div
+      className="home-style"
+      style={{
+        position: "fixed",
+        top: "0",
+        bottom: "0",
+        left: "0",
+        right: "0",
+        zIndex: "1",
+        color: "#fff",
+        paddingLeft: "110px",
+        paddingTop: "130px",
+        textShadow: "1px 1px 2px rgba(0,0,0,.6)",
+        fontSize: "12px",
+      }}
+    >
+      <Flex
+        sx={{
           display: "flex",
           flexDirection: "column",
-          maxWidth: "840px",
           alignContent: "center",
+          marginLeft: "25%",
+          width: "75%",
+          maxWidth: "840px",
         }}
       >
         <h1
@@ -47,14 +64,13 @@ function Home() {
             marginLeft: "200px",
             width: "160px",
             marginBottom: "1em",
-            fontSize: "19px",
             height: "50px",
-            boxShadow: "inset 0 0 8px",
+            border: "1px solid white",
           }}
           mr={2}
         >
           <Link className="main-style" to="/Projects/">
-            <HeadingBar menuname="PROJECTS" marginTopProp="0px" />
+            PROJECTS
           </Link>
         </Button>
         <Button
@@ -64,17 +80,16 @@ function Home() {
             marginLeft: "200px",
             width: "160px",
             marginBottom: "1em",
-            fontSize: "19px",
             height: "50px",
-            boxShadow: "inset 0 0 8px",
+            border: "1px solid white",
           }}
           variant="outline"
         >
           <Link className="main-style" to="/experiencedetails/">
-            <HeadingBar menuname="EXPERIENCE" marginTopProp="0px" />
+            EXPERIENCE
           </Link>
         </Button>
-      </div>
+      </Flex>
     </div>
   );
 }

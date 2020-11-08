@@ -66,7 +66,8 @@ function Projects () {
                 Language5 = 'CSS'
                 Language6 = 'JavaScript'
                 Language7 = 'AWS'
-                Language8 = 'C++'
+                Language8 = 'Java'
+                Language9 = 'MySQL'
               />
             }
           />
@@ -88,7 +89,8 @@ function Projects () {
                 Language5 = 'CSS'
                 Language6 = 'JavaScript'
                 Language7 = 'AWS'
-                Language8 = 'C++'
+                Language8 = 'Java'
+                Language9 = 'MySQL'
               />
             }
           />

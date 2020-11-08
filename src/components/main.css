@@ -8,7 +8,7 @@
 }
 
 .link-style h4:link {
-  color: blue;
+  color: white;
 }
 
 .link-style h4:visited {
@@ -30,10 +30,29 @@
   /* content: ' >'; */
 }
 
+a:link {
+  color: white !important;
+}
+
+/* visited link */
+a:visited {
+  color: white !important;
+}
+
+/* mouse over link */
+a:hover {
+  color: white !important;
+}
+
+/* selected link */
+a:active {
+  color: white !important;
+}
 .header-style {
   text-decoration: none;
-  color: white;
+  
 }
+
 .button-style {
   user-select: none;
   text-transform: uppercase;
@@ -64,4 +83,13 @@
 .list-style-content {
   font-size: 17px;
 }
+.home-style{
+  background-image: url('../images/Canada.jpg');
+  background-color: #201414;
+  background-repeat: no-repeat, repeat;
+  background-position: top center;
+  background-size: cover;
+  
+}
+  
 

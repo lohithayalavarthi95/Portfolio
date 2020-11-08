@@ -5,14 +5,16 @@ import {
   AiFillLinkedin,
   AiTwotoneMail,
   AiFillFacebook,
+  AiFillGithub,
 } from "react-icons/ai";
 import { Router, Link } from "@reach/router";
 import SocialStyling from "../views/SocialStyling";
+import { Flex } from "rebass";
 
 function contactUS() {
   var link = "mailto:likithayalavarthi95@gmail.com";
   return (
-    <div style={{ height: "900px" }}>
+    <Flex>
       <ContentHeader
         headername="CONTACT ME"
         subtitlename="I am available for hire and open to any ideas of cooperation."
@@ -46,9 +48,16 @@ function contactUS() {
             socialComponent={AiFillFacebook}
             sociallink="https://www.facebook.com/profile.php?id=100006936347694"
           />
+          <SocialStyling
+            classNameDes="social-styling"
+            socialdescription="likithayalavarthi"
+            socailSitename="Github : "
+            socialComponent={AiFillGithub}
+            sociallink="https://www.github.com/LikithaYalavarthi"
+          />
         </div>
       </ContentHeader>
-    </div>
+    </Flex>
   );
 }
 
