@@ -85,6 +85,29 @@ function ExperienceDetails () {
         />
       </ContentHeader>
       <Divider />
+      <ContentHeader
+        iconpresent
+        marginLeftprop='10px'
+        headername='SOFTWARE ENGINEER'
+      >
+        <ContentExp
+          title1={
+            <>
+              A{' '}
+              <Text style={{ color: '#bb1e1e' }}>
+                full-stack software engineer
+              </Text>
+          {' '}worked at The Innovative Minds Pvt. Ltd for<Text type='danger'> 6 months. </Text>
+            </>
+          }
+          listItem1='Designed a web application for a car rental company. The application enables the user to have an account, where the user can check availability, rent, and return the car.'
+          listItem2='Developed the application with JavaScript, NodeJS, PostgreSQL, Html5, CSS3, Mocha.'
+          
+          
+          
+        />
+      </ContentHeader>
+      <Divider />
     </ContentHeader>
   )
 }
